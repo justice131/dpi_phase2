@@ -300,13 +300,13 @@ and open the template in the editor.
                             labels = [],
                             from, to;
                             labels.push(
-                                            '<i style="background:' + myCols[2] + '"></i> ' + '[0, 20%]');
+                                            '<i style="background:' + myCols[2] + '"></i> ' + '[0, 0.5%]');
 //                                            1 +' (' +'1&ndash;' + Math.floor(max_row/3) + ')');
                             labels.push(
-                                            '<i style="background:' + myCols[1] + '"></i> ' + '(20%, 40%]');
+                                            '<i style="background:' + myCols[1] + '"></i> ' + '(0.5%, 1%]');
 //                                            2 +' (' + (Math.floor(max_row/3)+1) + '&ndash;' + Math.ceil(2*max_row/3) + ')');
                             labels.push(
-                                            '<i style="background:' + myCols[0] + '"></i> ' + '(80%, 100%]');
+                                            '<i style="background:' + myCols[0] + '"></i> ' + '(1%, 100%]');
 //                                            3 +' (' + (Math.ceil(2*max_row/3)+1) + '&ndash;' + max_row + ')');
                             div.innerHTML = '<h4>FRI</h4>' + labels.join('<br>');
                             return div;

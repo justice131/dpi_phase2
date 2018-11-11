@@ -1,17 +1,17 @@
-Water Source,Wetland Area,Mean Flow,Benefit from Environment (Million $)
-Avon River Water Source,22.21,421.75,
-Bowman River Water Source,3.42,335.02,
-Cooplacurripa River Water Source,9.13,654.37,
-Dingo Creek Water Source,4.53,932.83,
-Lower Barnard River Water Source,55.24,107.42,
-Lower Barrington / Gloucester Rivers Water Source,132.46,416.38,
-Lower Manning River Water Source,282.38,3087.94,
-Manning Estuary Tributaries Water Source,8748.91,278.02,
-Mid Manning River Water Source,42.11,1008.77,
-Myall Creek Water Source,8.23,399.88,
-Nowendoc River Water Source,84.86,495.9,
-Rowleys River Water Source,4.65,708.83,
-Upper Barnard River Water Source,21.96,237.41,
-Upper Barrington River Water Source,55.02,778.13,
-Upper Gloucester River Water Source,12.44,114.18,
-Upper Manning River Water Source,7.51,260.43,
+Water Source,Wetland Area (HA),Mean Flow,Benefit from Environment ($M)
+Avon River Water Source,22.21,421.75,0.07
+Bowman River Water Source,3.42,335.02,0.01
+Cooplacurripa River Water Source,9.13,654.37,0.03
+Dingo Creek Water Source,4.53,932.83,0.02
+Lower Barnard River Water Source,55.24,107.42,0.18
+Lower Barrington / Gloucester Rivers Water Source,132.46,416.38,0.44
+Lower Manning River Water Source,282.38,3087.94,0.94
+Manning Estuary Tributaries Water Source,8748.91,278.02,29.18
+Mid Manning River Water Source,42.11,1008.77,0.14
+Myall Creek Water Source,8.23,399.88,0.03
+Nowendoc River Water Source,84.86,495.9,0.28
+Rowleys River Water Source,4.65,708.83,0.02
+Upper Barnard River Water Source,21.96,237.41,0.07
+Upper Barrington River Water Source,55.02,778.13,0.18
+Upper Gloucester River Water Source,12.44,114.18,0.04
+Upper Manning River Water Source,7.51,260.43,0.03

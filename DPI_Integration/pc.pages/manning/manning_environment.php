@@ -248,9 +248,9 @@ and open the template in the editor.
                     _.each(data, function (d, i) {
                             d.index = d.index || i; //unique id
                             var water_source_name = d["Water Source"];
-                            lgaDict[water_source_name].properties.wetland_area=d["Wetland Area"];
+                            lgaDict[water_source_name].properties.wetland_area=d["Wetland Area (HA)"];
                             lgaDict[water_source_name].properties.mean_flow=d["Mean Flow"];
-                            lgaDict[water_source_name].properties.benefit_from_environment=d["Benefit from Environment (Million $)"];
+                            lgaDict[water_source_name].properties.benefit_from_environment=d["Benefit from Environment ($M)"];
                             lga.push(water_source_name);
                     });
 
