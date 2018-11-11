@@ -241,7 +241,7 @@ and open the template in the editor.
                             right: 1,
                             bottom: 15
                     })
-                    .color(function (d) { return getColorScalar(d["Benefit from Environment (Million $)"]) });
+                    .color(function (d) { return getColorScalar(d["Benefit from Environment ($M)"]) });
 
 
             //Read data for parallel coordinate
@@ -249,9 +249,9 @@ and open the template in the editor.
                     _.each(data, function (d, i) {
                             d.index = d.index || i; //unique id
                             var water_source_name = d["Water Source"];
-                            lgaDict[water_source_name].properties.wetland_area=d["Wetland Area"];
+                            lgaDict[water_source_name].properties.wetland_area=d["Wetland Area (HA)"];
                             lgaDict[water_source_name].properties.mean_flow=d["Mean Flow"];
-                            lgaDict[water_source_name].properties.benefit_from_environment=d["Benefit from Environment (Million $)"];
+                            lgaDict[water_source_name].properties.benefit_from_environment=d["Benefit from Environment ($M)"];
                             lga.push(water_source_name);
                     });
 
@@ -378,7 +378,7 @@ and open the template in the editor.
                             lgas.features.map(function (d) {d.properties.benefit_from_environment = -1; });
                             geojsonLabels.getLayers().map(function (d) { d._icon.innerHTML = ""; })
                             _.each(d, function (k, i) {
-                                    lgaDict[k["Water Source"]].properties.benefit_from_environment = k["Benefit from Environment (Million $)"];
+                                    lgaDict[k["Water Source"]].properties.benefit_from_environment = k["Benefit from Environment ($M)"];
                             });
 
                             map.removeControl(legend);

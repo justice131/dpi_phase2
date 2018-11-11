@@ -219,7 +219,7 @@ and open the template in the editor.
                            '<h4>' + props.WATER_SOUR + '</h4>'+
                                     'Irrigated Area: '+ '<b>' + toThousands(Math.round(props.irrigated_area*10)/10) + ' Ha' + '</b>' + '<br />'+
                                     'Irrigation Value: '+ '<b>$'+ toThousands(Math.round(props.irrigation_value*100)/100)+'M' + '</b>'+'<br />'+
-                                    'Employment(Irrigation): '+ '<b>'+toThousands(props.employment_irrigation) +'</b>'+'<br />'+
+                                    'Employment (Irrigation): '+ '<b>'+toThousands(props.employment_irrigation) +'</b>'+'<br />'+
                                     'Total Entitlement: '+ '<b>'+ toThousands(props.total_entitlement) +' ML/year'+ '</b>' +'<br />'+
                                     'Mean Flow: '+ '<b>'+ toThousands(Math.round(props.mean_flow*10*365)/10) + ' ML/year'+'</b>' +'<br />'+
                                     'DSI: '+ '<b>'+ Math.round(props.DSI*100)/100 + '</b>'+'<br />'+
@@ -263,7 +263,7 @@ and open the template in the editor.
                             d.index = d.index || i; //unique id
                             var water_source_name = d["Water Source"];
                             lgaDict[water_source_name].properties.irrigated_area=d["Irrigated Area"];
-                            lgaDict[water_source_name].properties.irrigation_value=d["Irrigation value ($)"];
+                            lgaDict[water_source_name].properties.irrigation_value=d["Irrigation Value ($M)"];
                             lgaDict[water_source_name].properties.employment_irrigation=d["Employment (Irrigation)"];
                             lgaDict[water_source_name].properties.total_entitlement=d["Total Entitlement"];
                             lgaDict[water_source_name].properties.mean_flow=d["Mean Flow"];
