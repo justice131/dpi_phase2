@@ -177,11 +177,11 @@ and open the template in the editor.
             map.setView([-31.75, 151.9],10);  
             
             function getColorScalar(d) {
-                if(d >= 0 && d <= 0.2){
+                if(d >= 0 && d <= 0.5){
                 return myCols[2];
-                }else if(d > 0.2 && d <= 0.4){
+                }else if(d > 0.5 && d <= 1){
                 return myCols[1];
-                }else if(d > 0.4 && d <= 1){
+                }else if(d > 1 && d <= 100){
                 return myCols[0];
                 }
             }
@@ -223,7 +223,7 @@ and open the template in the editor.
                                     'Mean Flow: '+ '<b>'+ toThousands(Math.round(props.mean_flow*10*365)/10) + ' ML/year'+'</b>' +'<br />'+
                                     'DSI: '+ '<b>'+ Math.round(props.DSI*100)/100 + '</b>'+'<br />'+
                                     'FUI: '+ '<b>'+ Math.round(props.FUI*100)/100 + '</b>'+'<br />'+
-                                    'Flood Risk Index (FRI): ' + '<b>'+ Math.round(props.flood_risk*10*100)/10 + ' %</b>'+'<br />'
+                                    'Flood Risk Index (FRI): ' + '<b>'+ Math.round(props.flood_risk*100)/100 + ' %</b>'+'<br />'
                             : '<b>'+ 'Click a Water Source'+'</b>');
             };
             info.addTo(map);
